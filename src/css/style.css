@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard {
+    width: 100%;
+    background: #3a3a3a;
+    height: 950px;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    color: #000;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.content{
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    top: 0px;
+    width: 25rem;
+    height: 15rem;
+    background-color: #282828;
+}
+
+.facebook {
+    border: 5px solid #0000ff;
+}
+
+.twitter {
+    border: 5px solid #00acee;
+}
+
+.instagram {
+    border: 5px solid transparent;
+    padding: .5rem;
+    border-radius: 5px;
+    border-image-source: linear-gradient(to right, #515bd4 0%,
+    #8134af 15%, #dd2a7b 30%, #f58529 45%, 
+    #feda77 50%, #f58529 55%, #dd2a7b 60%,
+    #8134af 85%, #515bd4 100%); 
+    border-image-slice: 30;
+}
+
+.github {
+    border: 5px solid #6e5494;
+}
+
+.social-img {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+
+
+
+/* [191919
+
+#282828]
+303030 */
